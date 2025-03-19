@@ -28,3 +28,28 @@ sequenceDiagram
     Sarah->>Server: Winning Move
     Server->>Database: Game
 ```
+
+## Key Features
+
+- Secure login with HTTPS
+- Choose to play bot or player
+- Display of game
+- When player's turn, can select which row to drop into
+- When game is done, it is stored in db
+- Ability to explore database and see all recent games
+- When playing against person or bot, a score will show
+
+## Technologies
+
+- **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for playing.
+- **CSS** - Application styling for different screen sizes, uses good whitespace, color choice and contrast.
+- **React** - Provides login, game display, score display and buttons, and use of React for routing and components.
+- **Service** - Backend service with endpoints for:
+  - login
+  - creating games between players
+  - making live moves & validating moves
+  - retrieving games from db
+- **DB/Login** - Store users and games in database. Register and login users. Credentials securely stored in database. Can't play unless authenticated.
+- **WebSocket** - Connects two users to play against each other, and updates their moves
+
+
