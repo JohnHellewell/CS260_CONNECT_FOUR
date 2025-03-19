@@ -25,5 +25,6 @@ sequenceDiagram
     Server-->>Sarah: Game ID
     Hayden->>Server: Move
     Server-->>Sarah: Move
-
+    Sarah->>Server: Winning Move
+    Server->>Database: Game
 ```
