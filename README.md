@@ -1,4 +1,4 @@
-# CS240_CONNECT_FOUR
+# CS260_CONNECT_FOUR
 
 ## Elevator Pitch
 
